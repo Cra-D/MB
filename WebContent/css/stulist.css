@@ -1,0 +1,269 @@
+body{
+   font-family:'����','����';
+   font-size:14px;
+}
+.list_table td {
+	border-right: #8db2e3 1px solid;
+	border-bottom: #8db2e3 1px solid;
+	height: 24px;
+}
+
+.list_table {
+	border-top: #8db2e3 1px solid;
+	border-left: #8db2e3 1px solid;
+	margin: 1px 3px 1px;
+}
+
+TABLE TR TH {
+	background: url(images/table_th.gif);
+	font-family: "����", Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	text-align: center;
+	padding-top: 2px;
+	padding-bottom: 1px;
+	color: black;
+	height: 22px;
+	border-right: #8db2e3 1px solid;
+	border-bottom: #8db2e3 1px solid;
+	/*c6d9e5*/
+	font-weight: bold;
+}
+#updateDiv{
+    positin:fixed;
+    width:0px;
+    height:0px;
+    overflow:hidden;
+   top:200px;
+   font-family:'����','����';
+   font-size:14px;
+   margin-left:auto;
+   margin-right:auto;
+   margin-bottom:50px;
+}
+
+           /*dd*/
+        * {
+            margin: 0; padding:0
+        }
+   
+        #container {
+            text-align: left;
+           width:60%;
+            height: 400px;
+            padding: 20px;
+             background-color: #FFE4B5;
+        }
+        #container #title {
+            height: 28px;
+        }
+        #container #title li {
+            float: left;
+            list-style-type: none;
+            height: 28px;
+            line-height: 28px;
+            text-align: center;
+            margin-right: 1px;
+        }
+        #container #title ul {
+            height: 28px;
+        }
+        #container #title a {
+            text-decoration: none;
+            color: #000000;
+            display: block;
+            width: auto;
+        }
+        #container #title a span{
+            display: block;
+            padding: 0 15px 0 15px;
+        }
+        #container #title #tag1 a:hover {
+            text-decoration: none;
+            display: block;
+            width: auto;
+        }
+        #container #title #tag1 a:hover span{
+            display: block;
+            background-color: dodgerblue;
+            padding: 0 15px 0 15px;
+        }
+        #container #title #tag2 a:hover {
+            text-decoration: none;
+            display: block;
+            width: auto;
+        }
+        #container #title #tag2 a:hover span{
+            background-color: dodgerblue;
+            display: block;
+            padding: 0 15px 0 15px;
+        }
+        #container #title #tag3 a:hover {
+            text-decoration: none;
+            display: block;
+            width: auto;
+        }
+        #container #title #tag3 a:hover span{
+            background-color: dodgerblue;
+            display: block;
+            padding: 0 15px 0 15px;
+        }
+        #container #title #tag4 a:hover {
+            text-decoration: none;
+            display: block;
+            width: auto;
+        }
+        #container #title #tag4 a:hover span{
+            background-color: dodgerblue;
+            display: block;
+            padding: 0 15px 0 15px;
+        }
+        #container #title #tag5 a:hover {
+            text-decoration: none;
+            display: block;
+            width: auto;
+        }
+        #container #title #tag5 a:hover span{
+            background-color: dodgerblue;
+            display: block;
+            padding: 0 15px 0 15px;
+        }
+        #container #title .selectli1 {
+            text-decoration: none;
+            color:black;
+            display: block;
+            width: auto;
+        }
+        #container #title a .selectspan1 {
+            display: block;
+            padding: 0 15px 0 15px;
+        }
+        #container #title .selectli2 {
+            text-decoration: none;
+            color: black;
+            display: block;
+            width: auto;
+        }
+        #container #title a .selectspan2 {
+            display: block;
+            padding: 0 15px 0 15px;
+        }
+        #container #title .selectli3 {
+            text-decoration: none;
+            color:black;
+            display: block;
+            width: auto;
+        }
+        #container #title a .selectspan3 {
+            display: block;
+            padding: 0 15px 0 15px;
+        }
+        #container #title .selectli4 {
+            text-decoration: none;
+            color:black;
+            display: block;
+            width: auto;
+        }
+        #container #title a .selectspan4 {
+            display: block;
+            padding: 0 15px 0 15px;
+        }
+        #container #title .selectli5 {
+            text-decoration: none;
+            color: black;
+            display: block;
+            width: auto;
+        }
+        #container #title a .selectspan5 {
+            display: block;
+            padding: 0 15px 0 15px;
+        }
+        #container #content ul {margin: 10px;}
+        #container #content li {margin: 5px; }
+        #container #content li img {margin: 5px;display:block;}
+        #container #content {
+            height: 300px;
+            padding: 10px;
+        }
+        .content1 {
+            border-top-width: 3px;
+            border-right-width: 1px;
+            border-bottom-width: 1px;
+            border-left-width: 1px;
+            border-top-style: solid;
+            border-right-style: solid;
+            border-bottom-style: solid;
+            border-left-style: solid;
+            border-top-color: #3A81C8;
+            border-right-color: #3A81C8;
+            border-bottom-color: #3A81C8;
+            border-left-color: #3A81C8;
+            background-color: #DFEBF7;
+            overflow:scroll; 
+        }
+        .content2 {
+            border-top-width: 3px;
+            border-right-width: 1px;
+            border-bottom-width: 1px;
+            border-left-width: 1px;
+            border-top-style: solid;
+            border-right-style: solid;
+            border-bottom-style: solid;
+            border-left-style: solid;
+            border-top-color: #ff950b;
+            border-right-color: #ff950b;
+            border-bottom-color: #ff950b;
+            border-left-color: #ff950b;
+            background-color: #FFECD2;
+        }
+        .content3 {
+            height: 300px;
+            padding: 10px;
+            border-top-width: 3px;
+            border-right-width: 1px;
+            border-bottom-width: 1px;
+            border-left-width: 1px;
+            border-top-style: solid;
+            border-right-style: solid;
+            border-bottom-style: solid;
+            border-left-style: solid;
+            border-top-color: #FE74B8;
+            border-right-color: #FE74B8;
+            border-bottom-color: #FE74B8;
+            border-left-color: #FE74B8;
+            background-color: #FFECF5;
+        }
+        .content4 {
+            height: 300px;
+            padding: 10px;
+            border-top-width: 3px;
+            border-right-width: 1px;
+            border-bottom-width: 1px;
+            border-left-width: 1px;
+            border-top-style: solid;
+            border-right-style: solid;
+            border-bottom-style: solid;
+            border-left-style: solid;
+            border-top-color: #00988B;
+            border-right-color: #00988B;
+            border-bottom-color: #00988B;
+            border-left-color: #00988B;
+            background-color: #E8FFFD;
+        }
+        .content5 {
+            height: 300px;
+            padding: 10px;
+            border-top-width: 3px;
+            border-right-width: 1px;
+            border-bottom-width: 1px;
+            border-left-width: 1px;
+            border-top-style: solid;
+            border-right-style: solid;
+            border-bottom-style: solid;
+            border-left-style: solid;
+            border-top-color: #A8BC1F;
+            border-right-color: #A8BC1F;
+            border-bottom-color: #A8BC1F;
+            border-left-color: #A8BC1F;
+            background-color: #F7FAE2;
+        }
+        .hidecontent {display:none;}
